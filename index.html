@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tartan Strategy Group — Pick Your Favorite</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: Arial, sans-serif; background: #F4F0E8; padding: 2rem 1.5rem; }
+  .page-header { text-align: center; margin-bottom: 2rem; }
+  .page-header h1 { font-family: Georgia, serif; font-size: 22px; color: #2C4A3E; font-weight: normal; margin-bottom: 6px; }
+  .page-header p { font-size: 13px; color: #888; font-style: italic; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
+  .palette-card { background: white; border-radius: 10px; overflow: hidden; border: 0.5px solid #ddd; }
+  .card-number { font-size: 28px; font-weight: 700; font-family: Georgia, serif; text-align: center; padding: 14px 0 10px; border-bottom: 2px solid; letter-spacing: -0.5px; }
+  .card-name { font-family: Georgia, serif; font-size: 14px; text-align: center; padding: 8px 12px 4px; font-weight: normal; }
+  .card-desc { font-size: 11px; color: #999; text-align: center; padding: 0 12px 10px; font-style: italic; }
+  .swatch-bar { display: flex; height: 40px; }
+  .swatch-bar div { flex: 1; }
+  .outlier-label { font-size: 9px; text-align: center; letter-spacing: .08em; text-transform: uppercase; padding: 5px 12px 8px; font-weight: 600; }
+  .mini-site { margin: 10px; border-radius: 6px; overflow: hidden; border: 0.5px solid #e0e0e0; }
+  .mn { height: 32px; display: flex; align-items: center; padding: 0 10px; justify-content: space-between; }
+  .mn-logo { font-family: Georgia, serif; font-size: 10px; }
+  .mn-cta { font-size: 9px; font-weight: 700; padding: 4px 8px; border-radius: 3px; }
+  .mh { padding: 14px 10px 12px; }
+  .mh-tag { font-size: 8px; letter-spacing: .12em; text-transform: uppercase; margin-bottom: 6px; }
+  .mh h2 { font-family: Georgia, serif; font-size: 13px; font-weight: normal; line-height: 1.3; margin-bottom: 6px; max-width: 220px; }
+  .mh p { font-size: 9px; line-height: 1.5; max-width: 200px; }
+  .mt { height: 4px; }
+  .ms { padding: 12px 10px; }
+  .ms-tag { font-size: 8px; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 4px; }
+  .ms h3 { font-family: Georgia, serif; font-size: 12px; font-weight: normal; margin-bottom: 5px; }
+  .ms-cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; }
+  .ms-card { border-radius: 3px; padding: 7px; border-width: 0.5px; border-style: solid; }
+  .ms-card-top { height: 3px; border-radius: 0; margin: -7px -7px 6px; }
+  .ms-card span { font-size: 8px; display: block; }
+  .mq { padding: 12px 10px; }
+  .mq-rule { width: 24px; height: 2px; margin-bottom: 8px; }
+  .mq blockquote { font-family: Georgia, serif; font-size: 10px; font-style: italic; line-height: 1.5; max-width: 220px; }
+  .mf { padding: 8px 10px; display: flex; justify-content: space-between; align-items: center; }
+  .mf span { font-family: Georgia, serif; font-size: 9px; }
+  .footer { text-align: center; margin-top: 2.5rem; padding-bottom: 1rem; }
+  .footer p { font-size: 13px; color: #666; margin-bottom: 6px; font-style: italic; }
+  .footer .brand { font-size: 11px; color: #C9A84C; letter-spacing: .1em; text-transform: uppercase; }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <h1>Help me pick my brand colors</h1>
+  <p>I am building a marketing agency called Tartan Strategy Group. Take a look and text me back your favorite number.</p>
+</div>
+
+<div class="grid">
+
+  <!-- 1 SOUNDSIDE -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#2C4A3E;border-color:#2C4A3E;">1</div>
+    <div class="card-name" style="color:#2C4A3E;">Soundside</div>
+    <div class="card-desc">Forest green · tartan red · aged gold</div>
+    <div class="swatch-bar"><div style="background:#2C4A3E;"></div><div style="background:#8B2635;"></div><div style="background:#C9A84C;"></div><div style="background:#F5F0E8;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#2C4A3E;"><span class="mn-logo" style="color:#F5F0E8;">Tartan Strategy Group</span><span class="mn-cta" style="background:#8B2635;color:#F5F0E8;">Work with us</span></div>
+      <div class="mh" style="background:#2C4A3E;"><div class="mh-tag" style="color:#C9A84C;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F5F0E8;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A8C4A8;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#2C4A3E 0,#2C4A3E 14px,#8B2635 14px,#8B2635 22px,#2C4A3E 22px,#2C4A3E 32px,#C9A84C 32px,#C9A84C 35px,#2C4A3E 35px,#2C4A3E 49px);"></div>
+      <div class="ms" style="background:#F5F0E8;"><div class="ms-tag" style="color:#8B2635;">What we do</div><h3 style="color:#2C4A3E;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#D4B890;"><div class="ms-card-top" style="background:#8B2635;"></div><span style="color:#2C4A3E;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#D4B890;"><span style="color:#2C4A3E;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#D4B890;"><span style="color:#2C4A3E;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#2C4A3E;"><div class="mq-rule" style="background:#C9A84C;"></div><blockquote style="color:#F5F0E8;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#1C3028;"><span style="color:#A8C4A8;">Tartan Strategy Group</span><span style="color:#C9A84C;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 2 COASTAL LEGACY -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#1D5C5C;border-color:#1D5C5C;">2</div>
+    <div class="card-name" style="color:#1D5C5C;">Coastal Legacy</div>
+    <div class="card-desc">Deep teal · sandy dune · rust sienna</div>
+    <div class="swatch-bar"><div style="background:#1D5C5C;"></div><div style="background:#C4A882;"></div><div style="background:#8C4A2F;"></div><div style="background:#F5F0E6;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#1D5C5C;"><span class="mn-logo" style="color:#F5F0E6;">Tartan Strategy Group</span><span class="mn-cta" style="background:#8C4A2F;color:#F5F0E6;">Work with us</span></div>
+      <div class="mh" style="background:#1D5C5C;"><div class="mh-tag" style="color:#C4A882;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F5F0E6;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A8C4B8;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#1D5C5C 0,#1D5C5C 14px,#8C4A2F 14px,#8C4A2F 22px,#1D5C5C 22px,#1D5C5C 32px,#C4A882 32px,#C4A882 35px,#1D5C5C 35px,#1D5C5C 49px);"></div>
+      <div class="ms" style="background:#F5F0E6;"><div class="ms-tag" style="color:#8C4A2F;">What we do</div><h3 style="color:#1D5C5C;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#C8C0A8;"><div class="ms-card-top" style="background:#8C4A2F;"></div><span style="color:#1D5C5C;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#C8C0A8;"><span style="color:#1D5C5C;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#C8C0A8;"><span style="color:#1D5C5C;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#1D5C5C;"><div class="mq-rule" style="background:#C4A882;"></div><blockquote style="color:#F5F0E6;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#143E3E;"><span style="color:#A8C4B8;">Tartan Strategy Group</span><span style="color:#C4A882;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 3 OLD EDINBURGH -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#1A3A5C;border-color:#1A3A5C;">3</div>
+    <div class="card-name" style="color:#1A3A5C;">Old Edinburgh</div>
+    <div class="card-desc">Royal navy · clan red · forest green</div>
+    <div class="swatch-bar"><div style="background:#1A3A5C;"></div><div style="background:#7A1E2E;"></div><div style="background:#2C5F3F;"></div><div style="background:#E8D9A0;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#1A3A5C;"><span class="mn-logo" style="color:#F6F1E7;">Tartan Strategy Group</span><span class="mn-cta" style="background:#7A1E2E;color:#F6F1E7;">Work with us</span></div>
+      <div class="mh" style="background:#1A3A5C;"><div class="mh-tag" style="color:#E8D9A0;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F6F1E7;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A8B8C8;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#1A3A5C 0,#1A3A5C 12px,#7A1E2E 12px,#7A1E2E 20px,#1A3A5C 20px,#1A3A5C 28px,#2C5F3F 28px,#2C5F3F 36px,#E8D9A0 36px,#E8D9A0 39px,#1A3A5C 39px,#1A3A5C 51px);"></div>
+      <div class="ms" style="background:#F6F1E7;"><div class="ms-tag" style="color:#7A1E2E;">What we do</div><h3 style="color:#1A3A5C;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#C8C0A8;"><div class="ms-card-top" style="background:#7A1E2E;"></div><span style="color:#1A3A5C;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#C8C0A8;"><span style="color:#1A3A5C;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#C8C0A8;"><span style="color:#1A3A5C;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#1A3A5C;"><div class="mq-rule" style="background:#E8D9A0;"></div><blockquote style="color:#F6F1E7;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#102840;"><span style="color:#A8B8C8;">Tartan Strategy Group</span><span style="color:#E8D9A0;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 4 LOCH LOMOND -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#1A3A52;border-color:#1A3A52;">4</div>
+    <div class="card-name" style="color:#1A3A52;">Loch Lomond</div>
+    <div class="card-desc">Deep loch blue · aqua mist · warm caramel</div>
+    <div class="swatch-bar"><div style="background:#1A3A52;"></div><div style="background:#4A8FA0;"></div><div style="background:#B07D45;"></div><div style="background:#E8EEF0;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#1A3A52;"><span class="mn-logo" style="color:#E8EEF0;">Tartan Strategy Group</span><span class="mn-cta" style="background:#B07D45;color:#E8EEF0;">Work with us</span></div>
+      <div class="mh" style="background:#1A3A52;"><div class="mh-tag" style="color:#4A8FA0;">Estate &amp; Probate Law Marketing</div><h2 style="color:#E8EEF0;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#8AAAB8;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#1A3A52 0,#1A3A52 14px,#4A8FA0 14px,#4A8FA0 22px,#1A3A52 22px,#1A3A52 32px,#B07D45 32px,#B07D45 35px,#1A3A52 35px,#1A3A52 49px);"></div>
+      <div class="ms" style="background:#E8EEF0;"><div class="ms-tag" style="color:#4A8FA0;">What we do</div><h3 style="color:#1A3A52;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#B8C8D0;"><div class="ms-card-top" style="background:#B07D45;"></div><span style="color:#1A3A52;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#B8C8D0;"><span style="color:#1A3A52;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#B8C8D0;"><span style="color:#1A3A52;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#1A3A52;"><div class="mq-rule" style="background:#B07D45;"></div><blockquote style="color:#E8EEF0;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#122A3C;"><span style="color:#8AAAB8;">Tartan Strategy Group</span><span style="color:#B07D45;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 5 SCOTTISH WAX CLOTH -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#2E4A28;border-color:#2E4A28;">5</div>
+    <div class="card-name" style="color:#2E4A28;">Scottish Wax Cloth</div>
+    <div class="card-desc">Deep moss · ox blood · golden harvest</div>
+    <div class="swatch-bar"><div style="background:#2E4A28;"></div><div style="background:#6B1E1E;"></div><div style="background:#C4921E;"></div><div style="background:#F4EFE2;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#2E4A28;"><span class="mn-logo" style="color:#F4EFE2;">Tartan Strategy Group</span><span class="mn-cta" style="background:#6B1E1E;color:#F4EFE2;">Work with us</span></div>
+      <div class="mh" style="background:#2E4A28;"><div class="mh-tag" style="color:#C4921E;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F4EFE2;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A0B898;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#2E4A28 0,#2E4A28 14px,#6B1E1E 14px,#6B1E1E 22px,#2E4A28 22px,#2E4A28 32px,#C4921E 32px,#C4921E 35px,#2E4A28 35px,#2E4A28 49px);"></div>
+      <div class="ms" style="background:#F4EFE2;"><div class="ms-tag" style="color:#6B1E1E;">What we do</div><h3 style="color:#2E4A28;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#C8C0A0;"><div class="ms-card-top" style="background:#6B1E1E;"></div><span style="color:#2E4A28;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#C8C0A0;"><span style="color:#2E4A28;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#C8C0A0;"><span style="color:#2E4A28;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#2E4A28;"><div class="mq-rule" style="background:#C4921E;"></div><blockquote style="color:#F4EFE2;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#1E3018;"><span style="color:#A0B898;">Tartan Strategy Group</span><span style="color:#C4921E;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 6 ANTIQUE MAP -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#1E2E4A;border-color:#1E2E4A;">6</div>
+    <div class="card-name" style="color:#1E2E4A;">Antique Map</div>
+    <div class="card-desc">Cartographer's navy · vellum gold · territorial red</div>
+    <div class="swatch-bar"><div style="background:#1E2E4A;"></div><div style="background:#8C2E1E;"></div><div style="background:#C8A45A;"></div><div style="background:#EAD9B0;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#1E2E4A;"><span class="mn-logo" style="color:#F6F1E4;">Tartan Strategy Group</span><span class="mn-cta" style="background:#8C2E1E;color:#F6F1E4;">Work with us</span></div>
+      <div class="mh" style="background:#1E2E4A;"><div class="mh-tag" style="color:#C8A45A;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F6F1E4;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A0B0C8;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#1E2E4A 0,#1E2E4A 14px,#8C2E1E 14px,#8C2E1E 22px,#1E2E4A 22px,#1E2E4A 32px,#C8A45A 32px,#C8A45A 35px,#1E2E4A 35px,#1E2E4A 49px);"></div>
+      <div class="ms" style="background:#EAD9B0;"><div class="ms-tag" style="color:#8C2E1E;">What we do</div><h3 style="color:#1E2E4A;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#C8B888;"><div class="ms-card-top" style="background:#8C2E1E;"></div><span style="color:#1E2E4A;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#C8B888;"><span style="color:#1E2E4A;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#C8B888;"><span style="color:#1E2E4A;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#1E2E4A;"><div class="mq-rule" style="background:#C8A45A;"></div><blockquote style="color:#F6F1E4;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#121E30;"><span style="color:#A0B0C8;">Tartan Strategy Group</span><span style="color:#C8A45A;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 7 OLD LEATHER LIBRARY -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#2A4A30;border-color:#2A4A30;">7</div>
+    <div class="card-name" style="color:#2A4A30;">Old Leather Library</div>
+    <div class="card-desc">Library green · cognac · gilt gold</div>
+    <div class="swatch-bar"><div style="background:#2A4A30;"></div><div style="background:#8C4E1E;"></div><div style="background:#C8A030;"></div><div style="background:#F5EFE0;"></div></div>
+    <div class="mini-site">
+      <div class="mn" style="background:#2A4A30;"><span class="mn-logo" style="color:#F5EFE0;">Tartan Strategy Group</span><span class="mn-cta" style="background:#8C4E1E;color:#F5EFE0;">Work with us</span></div>
+      <div class="mh" style="background:#2A4A30;"><div class="mh-tag" style="color:#C8A030;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F5EFE0;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A8C0A8;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#2A4A30 0,#2A4A30 14px,#8C4E1E 14px,#8C4E1E 22px,#2A4A30 22px,#2A4A30 32px,#C8A030 32px,#C8A030 35px,#2A4A30 35px,#2A4A30 49px);"></div>
+      <div class="ms" style="background:#F5EFE0;"><div class="ms-tag" style="color:#8C4E1E;">What we do</div><h3 style="color:#2A4A30;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#D4B080;"><div class="ms-card-top" style="background:#8C4E1E;"></div><span style="color:#2A4A30;font-weight:600;">Brand</span><span style="color:#888;">strategy</span></div><div class="ms-card" style="background:white;border-color:#D4B080;"><span style="color:#2A4A30;font-weight:600;">Digital</span><span style="color:#888;">presence</span></div><div class="ms-card" style="background:white;border-color:#D4B080;"><span style="color:#2A4A30;font-weight:600;">Growth</span><span style="color:#888;">strategy</span></div></div></div>
+      <div class="mq" style="background:#2A4A30;"><div class="mq-rule" style="background:#C8A030;"></div><blockquote style="color:#F5EFE0;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#1C3020;"><span style="color:#A8C0A8;">Tartan Strategy Group</span><span style="color:#C8A030;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 8 MORNING MIST -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#5A7A7A;border-color:#5A7A7A;">8</div>
+    <div class="card-name" style="color:#5A7A7A;">Morning Mist</div>
+    <div class="card-desc">Soft slate teal · warm sand · pale blush</div>
+    <div class="swatch-bar"><div style="background:#5A7A7A;"></div><div style="background:#C8A87A;"></div><div style="background:#E8C8B0;"></div><div style="background:#F4F0EC;"></div></div>
+    <div class="outlier-label" style="color:#5A7A7A;">— Light &amp; airy —</div>
+    <div class="mini-site">
+      <div class="mn" style="background:#F4F0EC;border-bottom:1px solid #E0D8D0;"><span class="mn-logo" style="color:#5A7A7A;">Tartan Strategy Group</span><span class="mn-cta" style="background:#5A7A7A;color:#F4F0EC;">Work with us</span></div>
+      <div class="mh" style="background:#F4F0EC;"><div class="mh-tag" style="color:#C8A87A;">Estate &amp; Probate Law Marketing</div><h2 style="color:#3A5858;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#7A9090;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#5A7A7A 0,#5A7A7A 14px,#C8A87A 14px,#C8A87A 22px,#5A7A7A 22px,#5A7A7A 32px,#E8C8B0 32px,#E8C8B0 35px,#5A7A7A 35px,#5A7A7A 49px);"></div>
+      <div class="ms" style="background:white;"><div class="ms-tag" style="color:#C8A87A;">What we do</div><h3 style="color:#3A5858;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:#F4F0EC;border-color:#DDD4C8;"><div class="ms-card-top" style="background:#C8A87A;"></div><span style="color:#3A5858;font-weight:600;">Brand</span><span style="color:#999;">strategy</span></div><div class="ms-card" style="background:#F4F0EC;border-color:#DDD4C8;"><span style="color:#3A5858;font-weight:600;">Digital</span><span style="color:#999;">presence</span></div><div class="ms-card" style="background:#F4F0EC;border-color:#DDD4C8;"><span style="color:#3A5858;font-weight:600;">Growth</span><span style="color:#999;">strategy</span></div></div></div>
+      <div class="mq" style="background:#EEE8E0;"><div class="mq-rule" style="background:#C8A87A;"></div><blockquote style="color:#3A5858;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#E0D8D0;"><span style="color:#5A7A7A;">Tartan Strategy Group</span><span style="color:#C8A87A;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+  <!-- 9 CHARCOAL & SAFFRON -->
+  <div class="palette-card">
+    <div class="card-number" style="color:#282828;border-color:#282828;">9</div>
+    <div class="card-name" style="color:#282828;">Charcoal &amp; Saffron</div>
+    <div class="card-desc">Near-black · bold saffron · warm white</div>
+    <div class="swatch-bar"><div style="background:#282828;"></div><div style="background:#C87E1A;"></div><div style="background:#6A6058;"></div><div style="background:#F6F4EE;"></div></div>
+    <div class="outlier-label" style="color:#282828;">— Bold &amp; modern —</div>
+    <div class="mini-site">
+      <div class="mn" style="background:#282828;"><span class="mn-logo" style="color:#F6F4EE;">Tartan Strategy Group</span><span class="mn-cta" style="background:#C87E1A;color:#282828;">Work with us</span></div>
+      <div class="mh" style="background:#282828;"><div class="mh-tag" style="color:#C87E1A;">Estate &amp; Probate Law Marketing</div><h2 style="color:#F6F4EE;">Marketing designed exclusively for estate and probate law firms.</h2><p style="color:#A8A098;">We help firms build clearer market positions and grow with intention.</p></div>
+      <div class="mt" style="background:repeating-linear-gradient(90deg,#282828 0,#282828 14px,#6A6058 14px,#6A6058 22px,#282828 22px,#282828 32px,#C87E1A 32px,#C87E1A 35px,#282828 35px,#282828 49px);"></div>
+      <div class="ms" style="background:#F6F4EE;"><div class="ms-tag" style="color:#6A6058;">What we do</div><h3 style="color:#282828;">Strategy built around estate law.</h3><div class="ms-cards"><div class="ms-card" style="background:white;border-color:#DDDAD0;"><div class="ms-card-top" style="background:#C87E1A;"></div><span style="color:#282828;font-weight:600;">Brand</span><span style="color:#999;">strategy</span></div><div class="ms-card" style="background:white;border-color:#DDDAD0;"><span style="color:#282828;font-weight:600;">Digital</span><span style="color:#999;">presence</span></div><div class="ms-card" style="background:white;border-color:#DDDAD0;"><span style="color:#282828;font-weight:600;">Growth</span><span style="color:#999;">strategy</span></div></div></div>
+      <div class="mq" style="background:#282828;"><div class="mq-rule" style="background:#C87E1A;"></div><blockquote style="color:#F6F4EE;">"For the first time I felt like our marketing partner understood what we do."</blockquote></div>
+      <div class="mf" style="background:#181818;"><span style="color:#A8A098;">Tartan Strategy Group</span><span style="color:#C87E1A;">tartanstrategygroup.com</span></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">
+  <p>Text me back your favorite number — 1 through 9.</p>
+  <div class="brand">Tartan Strategy Group</div>
+</div>
+
+</body>
+</html>
